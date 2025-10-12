@@ -52,11 +52,12 @@ const MainMenu = () => {
 
           <li className="nav-item  mega-dropdown-md" style={{
             width:"140px"
+            
           }}>
              <Link
     href="#our-about-us"
     scroll={true} // allows scrolling to anchors
-    className="nav-link"
+    className="nav-link "
   >
     About Us
   </Link>
