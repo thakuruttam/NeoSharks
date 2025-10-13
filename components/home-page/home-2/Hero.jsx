@@ -8,37 +8,47 @@ const Hero = () => {
           <div className="row">
             <div className="col-lg-6 col-md-7" data-aos="fade-right">
               <div
+                style={{
+                  color: "#00CCCC !important",
+                  fontFamily: "Nexa, sans-serif !important",
+                }}
                 className="slogan d-inline-block"
               >
-                Future-Ready Apps
+                Bite into Growth
               </div>
-              <h1 className="hero-heading fw-bold tx-dark mt-25">
-                Turn Your   
-               <span className="position-relative ms-3 d-inline-block" style={{ marginRight: "0.4em" }}>
-  Ideas <img src="/images/shape/shape_95.svg" style={{width:"400px", height:"120px"}} alt="shape" />
-</span>
-             Into Powerful Web Apps.
+              <h1 className="hero-heading fw-bold  mt-25">
+                Build Digital
+                <span className="position-relative d-inline-block " style={{
+                  marginRight:"2px"
+                }}>
+                  Experiences
+                </span>
+                <br></br>
+                That Perform.
               </h1>
-              <p className="text-lg mb-70 pt-35 pe-xxl-5 md-pt-30 lg-mb-40">
-                Our expert team designs and develops innovative apps that combine speed, security, and seamless user experience.
+              <p className="text-lg mb-70 pt-35 pe-xxl-5 md-pt-30 lg-mb-40" style={{
+                color: "#4A4A4A",
+                fontFamily: "Nexa, sans-serif !important",
+              }}>
+                We build high-performance eco-systems engineered for real business growth
               </p>
               <Link
                 href="/contact/contact-v3"
                 className="btn-fourteen fw-500 tran3s"
               >
-                Get a Free Consultation
+                Get a Free Audit
               </Link>
             </div>
           </div>
           {/* End .container */}
 
-          <div className="illustration-holder" data-aos="fade-left">
+          {/* <div className="illustration-holder" data-aos="fade-left">
             <img
               src="/images/assets/heroshark.png"
               alt="illustration"
               className="lazy-img main-illustration"
             />
-          </div>
+          </div> */}
           {/* /.illustration-holder */}
         </div>
         {/* /.container */}

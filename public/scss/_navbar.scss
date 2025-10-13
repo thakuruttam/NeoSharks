@@ -4,9 +4,13 @@
   padding: 0;
   box-shadow: none;
   position: relative;
-  z-index: 99;
+  z-index: 9;
   border: none;
   background: var(--prime-one);
+}
+.primary-text{
+font-family: Nexa !important;
+color: red;
 }
 .navbar-toggler:focus {
   box-shadow: none;
@@ -61,7 +65,10 @@
   font-weight: 500;
   font-size: 18px;
   line-height: initial;
-  color: #000;
+  color: #004466;
+  font-family: nexa, sans-serif;
+
+;
   padding: 13px 0;
   margin: 0 26px;
   position: relative;
@@ -74,7 +81,7 @@
 }
 .navbar .navbar-nav .nav-item.active .nav-link,
 .navbar .navbar-nav .nav-item:hover .nav-link {
-  color: var(--prime-one);
+  color: #FF6159 !important;
 }
 /*Menu Two*/
 .theme-menu-two .navbar .navbar-nav .nav-item.active .nav-link,
@@ -82,7 +89,7 @@
 .theme-menu-two .navbar .dropdown-menu .dropdown:hover > .dropdown-item,
 .theme-menu-two .navbar .dropdown-menu .dropdown-item.active,
 .theme-menu-two .navbar .dropdown-menu .dropdown-item:hover {
-  color: var(--prime-two);
+  color: #FF6159 !important;
 }
 .theme-menu-two .navbar-toggler {
   background: var(--prime-two);
